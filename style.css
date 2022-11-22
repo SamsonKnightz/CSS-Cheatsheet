@@ -1,0 +1,44 @@
+
+
+* {
+    background-color: grey;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+
+}
+
+header p {
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.linear-gradient-background {
+    background-image: linear-gradient(
+        rbg(232, 102, 236, 0.3) 0%,
+        rgb(232, 102, 236, 0.6) 100%
+        ):
+}
+
