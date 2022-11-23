@@ -1,86 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Snippet Cheatsheet</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Snippet Cheatsheet</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-
 <body>
-    <header class="headline">
-        <h1>CSS Snippet Cheatsheet</h1>
-        <p>Ever have trouble recalling the exact syntax for your favorite CSS code?
-            Give it a permanent home and add it to this page! Select any snippet
-            below and it'll automatically select all of the code for you to copy.
-        </p>
-    </header>
-    <main class="container">
-    <section class="card">
-        <h2>Flexbox Row</h2>
-        <p>Use these properties to create a Flexbox row layout.</p>
-        <pre>
-            <code>.code {
-            background: red;
-            }
-            </code>
-        </pre>
-    </section>
-    <section class="card">
-        <h2>Flexbox Column</h2>
-            <p>Use this to create a Flexbox column layout.</p>
-            <pre>
-                <code>.column {
-                display: flex;
-                flex-direction: column    
-                }
-                </code>
-            </pre>
-    </section>
-    <section class="card">
-        <h2>CSS Grid layout</h2>
-            <p>Build a 12-column layout using CSS Grid</p>
-            <pre>
-                <code>.grid {
-                display: grid;
-                width: 100%;
-                grid-template-column:
-                repeat (12. 1fr.);
-                }
-                </code>
-                </pre>
-    <section class="card">
-        <h2>Linear Gradients</h2>
-            <p>This will create a background linear gradientfrom top to bottom.</p>
-            <pre>
-                <code>.linear-gradient-background {
-                background-image: linear-gradient(
-                rbg(232, 102, 236, 0.3) 0%,
-                rgb(232, 102, 236, 0.6) 100%
-                ):
-                }
-                </code>
-            </pre>
-    </section>
-    <section class="card">
-        <h2>Box Transition Glow</h2>
-            <p>Use transition and box shadows</p>
-    </section>
-    <section class="card">
-        <h2>Linear Gradients</h2>
-            <p>This will create</p>
-            <pre>
-                <code>
+  <header class="headline">
+    <h1>CSS Snippet Cheatsheet</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta blanditiis natus cumque quam repudiandae ex excepturi libero debitis soluta architecto voluptate alias, a ipsum fugit, quas sunt, sit incidunt? Eum.</p>
+  </header>
+  <main class="container">
+    <article>
+      <h2>Calc</h2>
 
-                </code>
-            </pre>
-    <section>
-    </main>
-                <footer>
-                    <h2>Made with 3 and CSS</h2>
-                </footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit laborum ut accusamus consectetur soluta
+          totam sunt quo consequuntur, aperiam atque iusto placeat, voluptatum temporibus non eius nemo? Ipsum,
+          quidem?</p>
+        <pre><code>
+div {
+  width: calc(50% - 12px)
+}
+        </code></pre>
+
+    </article>
+    <article>
+      <h2>Linear Gradients</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit laborum ut accusamus consectetur soluta
+          totam sunt quo consequuntur, aperiam atque iusto placeat, voluptatum temporibus non eius nemo? Ipsum,
+          quidem?</p>
+        <pre><code>
+div {
+  background-image: linear-gradient(
+    rgb(0,0,0) 0%,
+    rgb(255,255,255) 100%
+  );
+}
+        </code></pre>
+
+    </article>
+    <article>
+      <h2>Center Align Container</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit laborum ut accusamus consectetur soluta
+          totam sunt quo consequuntur, aperiam atque iusto placeat, voluptatum temporibus non eius nemo? Ipsum,
+          quidem?</p>
+        <pre><code>
+div {
+  margin: 0 auto;
+}
+        </code></pre>
+
+    </article>
+    <article>
+      <h2>CSS Transitition</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit laborum ut accusamus consectetur soluta
+          totam sunt quo consequuntur, aperiam atque iusto placeat, voluptatum temporibus non eius nemo? Ipsum,
+          quidem?</p>
+        <pre><code>
+div {
+  color: red;
+  transition: all 300ms ease;
+}
+        </code></pre>
+
+    </article>
+    <article>
+      <h2>Display Flex</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit laborum ut accusamus consectetur soluta
+          totam sunt quo consequuntur, aperiam atque iusto placeat, voluptatum temporibus non eius nemo? Ipsum,
+          quidem?</p>
+        <pre><code>
+div {
+  display: flex;
+}
+        </code></pre>
+
+    </article>
+    <article>
+      <h2>Center Element (Horizontally)</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit laborum ut accusamus consectetur soluta
+          totam sunt quo consequuntur, aperiam atque iusto placeat, voluptatum temporibus non eius nemo? Ipsum,
+          quidem?</p>
+        <pre><code>
+div {
+  position: absolute;
+  transform: translateX(-50%);
+}
+        </code></pre>
+
+    </article>
+  </main>
+  <footer>
+    <h2>Made with &hearts;, HTML, and CSS</h2>
+  </footer>
 </body>
-
 </html>

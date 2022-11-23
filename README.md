@@ -1,2 +1,1 @@
-# CSS-Cheatsheet
-CSS Cheatsheet wireframe
+# css-cheatsheet
